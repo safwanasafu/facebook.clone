@@ -1,0 +1,197 @@
+*{
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3b5998;
+}
+.logo{
+    font-size: 45px;
+    font-family: "Poppins", serif;
+    color: white;
+}
+.login-form{
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+}
+.login-input-div{
+    margin-left: 20px;
+}
+.label{
+    color: white;
+    margin-bottom: 3px;
+}
+.login-input{
+    height: 25px;
+    background-color: lightyellow;
+    border: none;
+    margin-bottom: 5px;
+}
+.light-blue{
+    color: aliceblue ;
+}
+.forgot-p{
+    text-decoration: none;
+    color: aliceblue;
+}
+.login-btn{
+    margin-left: 20px;
+    margin-top: 19px;
+}
+.login-btn button{
+    width: 80px;
+    background-color: #7099f0;
+    height: 25px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+.container{
+    display: flex;
+}
+.content-body{
+    width: 50%;
+    margin-left: 30px;
+    margin-top: 60px;
+}
+.content-body h1{
+    font-family: "Poppins", serif;
+    font-size: 4.5vh;
+
+}
+.fb-content-img{
+    width: 90%;
+    margin-top: 30px;
+    
+}
+.signup-body{
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+.sign-up-h1{
+    font-family: "Poppins", serif;
+    font-size: 4vh;
+    margin-left: 10px;
+
+}
+.gray{
+    color: gray;
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+.user-names{
+    width: 100%;
+    display: flex;
+    margin-top: 8px;
+    margin-right: 80px;
+}
+.input-name{
+    margin: 5px;
+    height: 40px;
+    width: 250px;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 0.5px solid gray;
+    margin-left: 10px;
+}
+.signup-email{
+    width: 100%;
+    margin-top: 10px;
+}
+.input-email{
+    width: 515px;
+    padding: 10px; 
+    font-size: 18px;
+    border-radius: 5px;
+    border: 0.5px solid gray;
+    margin-left: 10px;
+}
+.signup-password{
+    width: 100%;
+    margin-top: 10px;
+}
+.input-password{
+    margin: 5px;
+    height: 35px;
+    width: 515px;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 0.5px solid gray;
+    margin-left: 10px;
+}
+.birth-day-h3{
+    font-family: "Roboto", sans-serif;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.birth-day{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+#days,
+#years,
+#months{
+    height: 35px;
+}
+.why-nedd-bd{
+    font-size: 13px;
+    font-family: "Roboto", sans-serif;
+    color: darkblue;
+    margin-left: 25px;
+    
+}
+.gender{
+    margin-top: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+.gender input{
+    margin: 10px;
+}
+.p-policy{
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+    margin-top: 10px;
+}
+.p-policy p{
+    margin-left: 10px;
+}
+.bold-dark{
+    color: darkblue;
+    font-weight: 600;
+}
+.sign-up-btn{
+    margin: 10px;
+    width: 130px;
+    height: 35px;
+    font-size: 23px;
+    font-weight: bold;
+    background: linear-gradient(#67ae55, #578843);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+.create-p-c{
+    margin-top: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+.create-p-c p{
+    margin: 10px;
+}
